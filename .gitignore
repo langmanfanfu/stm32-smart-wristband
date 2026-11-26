@@ -1,0 +1,32 @@
+# Keil MDK build outputs and per-user IDE files
+firmware/Objects/
+firmware/Listings/
+firmware/DebugConfig/
+*.uvguix.*
+*.uvoptx.bak
+*.uvprojx.bak
+*.build_log.htm
+*.axf
+*.bin
+*.dep
+*.lnp
+*.map
+*.o
+*.crf
+*.d
+*.htm
+*.sct
+*.lst
+build_cli.log
+build_pkg.log
+
+# Ignore temporary hex inside firmware/, keep release binary tracked
+firmware/*.hex
+!release/*.hex
+
+# Python & OS
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
